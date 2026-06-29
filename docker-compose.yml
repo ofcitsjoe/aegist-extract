@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    container_name: aegis_extract_api
+    network_mode: "host"
+    volumes:
+      - ./assets:/app/assets
